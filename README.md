@@ -1,9 +1,11 @@
 # MTE-XFEM
 ##Paper titile
 An advanced simulation technique of the initiation and development of multiple cracks based on the Minimum Total Energy Extended Finite Element Method (MTE-XFEM)
+
 ##main_program
 ### Description
 This paper presents the Minimum Total Energy Extended Finite Element Method (MTE-XFEM) to address the initiation and development problems of multiple cracks, which can be applied to the fracture analysis of linear elastic plane members under quasi-static and small deformation conditions. The proposed crack competition criterion is based on the minimum total energy principle. The initiation or propagation of cracks per unit length would lead to the maximum energy dissipation. Besides, a novel adaptive contact stiffness algorithm is proposed to tackle multi-crack contact surface simulation. The application of adaptive contact stiffness improves the convergence and applicability of contact simulations. The MTE-XFEM is realized by the MATLAB programming.
+
 ##
 "RUN.m" is the file to initiate the calculation. You need to input the folder name and its corresponding path in sequence where the calculation file"JOB_MAIN.m" is located.
 "JOB_MAIN.m"  contains the configuration details for the numerical model.
